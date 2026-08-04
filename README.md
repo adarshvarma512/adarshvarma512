@@ -1,7 +1,7 @@
 # Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="10px" height="40px">, I'm <a href="https://windguard-it-solutions.onrender.com">Adarsh Varma</a> !
 <img align='right' src="https://github.com/achyutghosh/achyutghosh/blob/master/gifs/people-at-work.gif" width="300">
 <h4>:fire: Full Stack Developer | Experience in Exe software.</h4>
-<h3>Founder at <a href="https://windguard-it-solutions.onrender.com">Windguard IT Solutions</a></h3>
+<h3>Full-stack developer at <a href="https://windguard-it-solutions.onrender.com">Windguard IT Solutions</a></h3>
 
 ## :envelope: Let's talk
 [![Website Badge](https://img.shields.io/badge/Website-0A79DF?style=flat-square&logo=google-chrome&logoColor=white)](https://windguard-it-solutions.onrender.com)
