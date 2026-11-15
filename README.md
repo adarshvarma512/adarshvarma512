@@ -8,13 +8,12 @@
 
 <br/><br/>
 
-<a href="https://windguard-it-solutions.onrender.com"><img src="https://img.shields.io/badge/Website-0A79DF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
+<a href="https://windguarditsolutions.onrender.com"><img src="https://img.shields.io/badge/Website-0A79DF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
 <a href="mailto:adarshverma912098@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="https://www.linkedin.com/in/adarsh-varma-32504b392/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://instagram.com/mr.adarsh512/"><img src="https://img.shields.io/badge/Instagram-E4405C?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<!-- After you deploy the Three.js portfolio (see index.html), uncomment and fix the link:
-<a href="https://cloudcoder512.github.io"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Portfolio"/></a>
--->
+
+<a href="https://adarshvarma512.github.io/interactive-3d-portfolio/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Portfolio"/></a>
 
 <br/>
 
@@ -28,7 +27,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/achyutghosh/achyutghosh/master/gifs/people-at-work.gif" width="280" alt="Working"/>
 
-I am a full-stack developer at **[Windguard IT Solutions](https://windguard-it-solutions.onrender.com)** with experience in software engineering. I work across the whole product: the interface in the browser, the application logic on the server, and the data underneath.
+I am a full-stack developer at **[Windguard IT Solutions](https://windguarditsolutions.onrender.com)** with experience in software engineering. I work across the whole product: the interface in the browser, the application logic on the server, and the data underneath.
 
 - Front end: HTML, CSS, JavaScript, React
 - Back end: Node.js, Java, C, C++
