@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Adarsh Varma, Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060912"/>
+      <stop offset="1" stop-color="#0d1630"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ea8ff"/>
+      <stop offset="1" stop-color="#3de0c8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6ea8ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6ea8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <!-- grid -->
+  <g stroke="#1f2a45" stroke-width="1" opacity="0.55">
+    <path d="M0 85H1200M0 170H1200M0 255H1200"/>
+    <path d="M150 0V340M300 0V340M450 0V340M600 0V340M750 0V340M900 0V340M1050 0V340"/>
+  </g>
+
+  <!-- orbit visual -->
+  <g transform="translate(960 170)">
+    <circle r="150" fill="url(#halo)">
+      <animate attributeName="r" values="140;160;140" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="96" fill="none" stroke="url(#ac)" stroke-width="1.5" opacity="0.9"/>
+    <circle r="96" fill="none" stroke="#6ea8ff" stroke-width="1" stroke-dasharray="2 9" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse rx="140" ry="46" fill="none" stroke="#6ea8ff" stroke-width="1.2" opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="-20" to="340" dur="26s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="140" ry="46" fill="none" stroke="#3de0c8" stroke-width="1" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="55" to="-305" dur="34s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <circle cx="140" cy="0" r="5" fill="#6ea8ff"/>
+      <animateTransform attributeName="transform" type="rotate" from="-20" to="340" dur="26s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="-140" cy="0" r="4" fill="#3de0c8"/>
+      <animateTransform attributeName="transform" type="rotate" from="55" to="-305" dur="34s" repeatCount="indefinite"/>
+    </g>
+    <circle r="22" fill="url(#ac)">
+      <animate attributeName="r" values="20;25;20" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#9fb4e8">
+    <circle cx="640" cy="60" r="2" opacity="0.6"><animate attributeName="cy" values="60;48;60" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="280" r="1.6" opacity="0.5"><animate attributeName="cy" values="280;292;280" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="70" r="2" opacity="0.6"><animate attributeName="cy" values="70;82;70" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="290" r="1.6" opacity="0.5"><animate attributeName="cy" values="290;278;290" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="40" r="1.4" opacity="0.4"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- text -->
+  <text x="72" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#3de0c8" letter-spacing="3">WINDGUARD IT SOLUTIONS</text>
+  <text x="72" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="700" fill="#e8ecf6" letter-spacing="-2">Adarsh <tspan fill="#6ea8ff">Varma</tspan></text>
+  <text x="74" y="252" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#8c97b2">Full Stack Developer</text>
+  <rect x="74" y="266" width="0" height="3" rx="1.5" fill="url(#ac)">
+    <animate attributeName="width" values="0;250;250;0" keyTimes="0;0.4;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
